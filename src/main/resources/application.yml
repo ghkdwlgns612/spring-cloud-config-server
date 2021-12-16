@@ -5,5 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ghkdwlgns612/spring-cloud-config.git
+          uri: ${BITBUCKET_URL}
+          username: ${BITBUCKET_ID}
+          password: ${BITBUCKET_PW}
 
